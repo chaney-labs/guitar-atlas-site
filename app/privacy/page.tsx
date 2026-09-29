@@ -11,7 +11,7 @@ export default function Privacy() {
     <article className="mx-auto max-w-3xl px-6 py-24">
       <header className="border-b border-brand-cream/15 pb-8">
         <p className="font-body text-xs uppercase tracking-[0.2em] text-brand-cream/60">
-          Guitar Atlas · Last updated July 16, 2026
+          Guitar Atlas · Last updated September 29, 2026
         </p>
         <h1 className="mt-3 text-5xl font-semibold leading-tight text-brand-cream">
           Privacy Policy
@@ -46,6 +46,11 @@ export default function Privacy() {
             </li>
             <li>App diagnostics and crash data when crash reporting is enabled.</li>
           </ul>
+          <p>
+            The tuner uses your microphone to hear the string you are tuning.
+            That audio is analyzed on your device and is never recorded or
+            uploaded.
+          </p>
         </Section>
 
         <Section title="How We Use Information">
@@ -61,10 +66,46 @@ export default function Privacy() {
 
         <Section title="AI Features">
           <p>
-            Atlas Chat may use your message and relevant saved learning context
-            to answer music-related questions. This may include pieces you are
-            working on, saved scales and chords, curriculum progress, practice
-            history, and archived learning items.
+            Guitar Atlas uses Claude, an AI model provided by Anthropic, PBC,
+            for two features:
+          </p>
+          <ul>
+            <li>
+              <strong>Atlas Chat.</strong>{" "}Before your first message, the app
+              asks for your permission to share data with Anthropic. If you
+              agree, each message you send, together with the conversation so
+              far and a limited summary of your learning context, is sent to
+              Anthropic to generate a response. That context can include your
+              most recently opened pieces (title, artist, key, tempo, genre,
+              tuning, capo, time signature and learning status), and, when
+              relevant to your question, a piece&rsquo;s chord names, video and
+              sheet music titles and short excerpts of your piece notes; your
+              saved Dojo library item titles, courses and review schedule; and
+              a practice summary (recent session dates, minutes and focus
+              areas). Your name, email address and uploaded files are not sent.
+              You can decline, in which case Atlas Chat is not used and nothing
+              is sent.
+            </li>
+            <li>
+              <strong>Piece synopses.</strong>{" "}When the app generates the
+              &ldquo;About&rdquo; content for a piece, the piece&rsquo;s title,
+              artist and related public music metadata are sent to Anthropic.
+            </li>
+          </ul>
+          <p>
+            Requests are sent from our servers to Anthropic&rsquo;s API.
+            Anthropic processes this data to provide the responses, and under
+            Anthropic&rsquo;s commercial terms it does not use API inputs or
+            outputs to train its models. Anthropic may retain data for a limited
+            period for trust and safety purposes in line with its own policies (
+            <a
+              href="https://www.anthropic.com/legal/privacy"
+              className="text-brand-primary hover:underline"
+            >
+              anthropic.com/legal/privacy
+            </a>
+            ). Atlas Chat conversations are also stored in your Guitar Atlas
+            account so you can revisit them, and are deleted with your account.
           </p>
           <p>
             Do not include sensitive personal information in chat messages. AI
@@ -78,7 +119,7 @@ export default function Privacy() {
           <ul>
             <li>Supabase for authentication, database, storage, and Edge Functions.</li>
             <li>Sentry for crash reporting and diagnostics.</li>
-            <li>AI model providers for Atlas Chat and music analysis features.</li>
+            <li>Anthropic (Claude) for Atlas Chat responses and piece synopses (see AI Features).</li>
             <li>Music metadata, video, and media API providers for song discovery and enrichment features.</li>
             <li>
               RevenueCat for Atlas Pro subscription management (receives your
@@ -98,8 +139,11 @@ export default function Privacy() {
           <p>
             You can request account deletion from inside the app. Deleting your
             account removes your account and associated saved Guitar Atlas data
-            from the production backend, subject to legally required retention,
-            backups, and operational logs.
+            from the production backend, including files you uploaded in Guitar
+            Atlas or Pedal Steel Atlas (which share one account), subject to
+            legally required retention, backups, and operational logs. Files
+            that another user&rsquo;s shared copy still uses, such as a piece a
+            teacher shared with a student, are kept for that user.
           </p>
         </Section>
 
