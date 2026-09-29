@@ -67,7 +67,7 @@ export default function Privacy() {
         <Section title="AI Features">
           <p>
             Guitar Atlas uses Claude, an AI model provided by Anthropic, PBC,
-            for two features:
+            for three features:
           </p>
           <ul>
             <li>
@@ -90,6 +90,14 @@ export default function Privacy() {
               <strong>Piece synopses.</strong>{" "}When the app generates the
               &ldquo;About&rdquo; content for a piece, the piece&rsquo;s title,
               artist and related public music metadata are sent to Anthropic.
+            </li>
+            <li>
+              <strong>Tab import.</strong>{" "}When you import a PDF or image
+              of a printed pedal steel tab into the tab editor, the file is
+              uploaded to your account and images of its pages and measures,
+              along with any notes you add about the document, are sent to
+              Anthropic to transcribe them into editable tab. Nothing is sent
+              unless you start an import.
             </li>
           </ul>
           <p>
