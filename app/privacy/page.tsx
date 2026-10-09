@@ -11,7 +11,7 @@ export default function Privacy() {
     <article className="mx-auto max-w-3xl px-6 py-24">
       <header className="border-b border-brand-cream/15 pb-8">
         <p className="font-body text-xs uppercase tracking-[0.2em] text-brand-cream/60">
-          Guitar Atlas · Last updated September 29, 2026
+          Guitar Atlas · Last updated October 9, 2026
         </p>
         <h1 className="mt-3 text-5xl font-semibold leading-tight text-brand-cream">
           Privacy Policy
@@ -37,7 +37,12 @@ export default function Privacy() {
               playlists, course progress, and studio-related learning data.
             </li>
             <li>Chat content you send to Atlas Chat and contextual learning data needed to answer your music-related questions.</li>
-            <li>Media or file uploads you choose to add to your account.</li>
+            <li>
+              Media or file uploads you choose to add to your account. Audio
+              stems you upload (for example an isolated guitar track and a
+              backing track) are stored privately for your account only and are
+              deleted when you delete your account.
+            </li>
             <li>
               Purchase and subscription status for Atlas Pro (plan, renewal
               state, and expiry), so the app knows what to unlock. Payment
