@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Support",
   description:
-    "Get help with Guitar Atlas — account and subscription questions, teacher and student studios, and how to delete your account.",
+    "Get help with Guitar Atlas — account questions, teacher and student studios, and how to delete your account.",
 };
 
 export default function Support() {
@@ -52,27 +52,19 @@ export default function Support() {
           </FAQ>
 
           <FAQ q="Is my Guitar Atlas account the same as my Pedal Steel Atlas account?">
-            Yes. The two apps share one account — one sign-in works in both,
-            and a single Atlas Pro subscription covers both.
+            Yes. The two apps share one account — one sign-in works in both.
           </FAQ>
 
-          <FAQ q="What’s free, and what needs Atlas Pro?">
-            Exploring stays free, including the full chord finder. Every new
-            account starts with a 14-day free trial of Atlas Pro, which unlocks
-            creating and saving your own content.
+          <FAQ q="Is Guitar Atlas free?">
+            Yes — everything is free during our launch. If we add paid features
+            later, we&rsquo;ll tell you in advance, every existing account will
+            get a free trial of them when they start, and your own work always
+            stays yours to open and play.
           </FAQ>
 
           <FAQ q="I’m a student — do I have to pay?">
-            No. If you join your teacher&rsquo;s studio with their invite code,
-            you&rsquo;re covered by their subscription for as long as your
-            membership is active. You never need to buy Atlas Pro separately.
-          </FAQ>
-
-          <FAQ q="How do I manage or cancel Atlas Pro?">
-            Subscriptions bought on iPhone, iPad, or Mac are billed by Apple.
-            Manage or cancel them in your device&rsquo;s Settings, under your
-            Apple Account &rarr; Subscriptions. Cancelling stops future billing;
-            your subscription stays active until the end of the current period.
+            No. Guitar Atlas is free for students and teachers alike. Join your
+            teacher&rsquo;s studio with their invite code to get started.
           </FAQ>
 
           <FAQ q="How do I delete my account?">

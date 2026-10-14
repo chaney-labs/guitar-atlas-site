@@ -51,12 +51,10 @@ export default function Contact() {
             . The iPhone, iPad, and Mac apps are in final pre-release testing,
             with an App Store release coming soon.
           </FAQ>
-          <FAQ q="Will there be a free tier?">
-            Yes. Exploring stays free — including the full chord finder — and
-            every new account starts with a 14-day free trial of Atlas Pro,
-            the paid plan that unlocks creating and saving your own content.
-            One Atlas Pro subscription covers both Guitar Atlas and Pedal
-            Steel Atlas.
+          <FAQ q="Is Guitar Atlas free?">
+            Yes. Everything in Guitar Atlas is free during our launch — no
+            subscription, nothing to pay. The same account works in Pedal Steel
+            Atlas, which is free too.
           </FAQ>
           <FAQ q="Can I import my existing songs / chord charts?">
             On day one, you can add any piece from Spotify or YouTube and we
