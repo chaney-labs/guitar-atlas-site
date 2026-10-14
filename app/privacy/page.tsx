@@ -11,7 +11,7 @@ export default function Privacy() {
     <article className="mx-auto max-w-3xl px-6 py-24">
       <header className="border-b border-brand-cream/15 pb-8">
         <p className="font-body text-xs uppercase tracking-[0.2em] text-brand-cream/60">
-          Guitar Atlas · Last updated October 9, 2026
+          Guitar Atlas · Last updated October 14, 2026
         </p>
         <h1 className="mt-3 text-5xl font-semibold leading-tight text-brand-cream">
           Privacy Policy
@@ -44,10 +44,14 @@ export default function Privacy() {
               deleted when you delete your account.
             </li>
             <li>
-              Purchase and subscription status for Atlas Pro (plan, renewal
-              state, and expiry), so the app knows what to unlock. Payment
-              details such as card numbers are handled entirely by the payment
-              processors listed below and never reach our servers.
+              A plan record for your account (the plan, its status, and its
+              start and end dates), which tells the app which features are
+              available. Every feature is free today, so this record doesn&apos;t
+              limit what you can use. If paid features are offered in the future
+              and you buy one, this record would also show that purchase;
+              payment details such as card numbers would be handled entirely by
+              the payment processors listed below and would never reach our
+              servers.
             </li>
             <li>App diagnostics and crash data when crash reporting is enabled.</li>
           </ul>
@@ -131,18 +135,33 @@ export default function Privacy() {
           <p>Guitar Atlas uses third-party services to operate app features. These may include:</p>
           <ul>
             <li>Supabase for authentication, database, storage, and Edge Functions.</li>
+            <li>
+              Apple and Google, if you sign in with Apple or Google: they confirm
+              who you are and share your email address and, if you allow it, your
+              name (Apple can give a private relay address from Hide My Email
+              instead of your real address, and Google also shares a link to your
+              profile picture).
+            </li>
             <li>Sentry for crash reporting and diagnostics.</li>
-            <li>Anthropic (Claude) for Atlas Chat responses and piece synopses (see AI Features).</li>
+            <li>Anthropic (Claude) for Atlas Chat responses, piece synopses, and tab import (see AI Features).</li>
             <li>Music metadata, video, and media API providers for song discovery and enrichment features.</li>
             <li>
-              RevenueCat for Atlas Pro subscription management (receives your
-              account id and purchase events so your subscription unlocks
-              across devices and apps).
+              RevenueCat for purchase management. Nothing is sold today, but the
+              iOS and macOS apps connect to RevenueCat and, when you sign in,
+              share your account id with it (a random identifier, not your email
+              address), so that a purchase could be recognized across devices and
+              apps if paid features are offered later. If they are, RevenueCat
+              would also receive purchase events (product, price, renewal state).
+              The web app does not use RevenueCat.
             </li>
-            <li>Apple App Store for purchases made in the iOS and macOS apps.</li>
             <li>
-              Stripe for purchases made on the web (your card details go
-              directly to Stripe and are never visible to us).
+              Apple App Store, if purchases are offered in the future, for
+              purchases made in the iOS and macOS apps.
+            </li>
+            <li>
+              Stripe, if purchases are offered on the web in the future (card
+              details would go directly to Stripe and would never be visible to
+              us).
             </li>
           </ul>
           <p>Third-party services process data according to their own terms and privacy policies.</p>

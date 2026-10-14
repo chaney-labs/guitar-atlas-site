@@ -10,7 +10,7 @@ export default function Terms() {
     <article className="mx-auto max-w-3xl px-6 py-24">
       <header className="border-b border-brand-cream/15 pb-8">
         <p className="font-body text-xs uppercase tracking-[0.2em] text-brand-cream/60">
-          Guitar Atlas · Last updated July 16, 2026
+          Guitar Atlas · Last updated October 14, 2026
         </p>
         <h1 className="mt-3 text-5xl font-semibold leading-tight text-brand-cream">
           Terms of Service
@@ -65,35 +65,13 @@ export default function Terms() {
           </p>
         </Section>
 
-        <Section title="Subscriptions & Payment (Atlas Pro)">
+        <Section title="Free to Use">
           <p>
-            Advanced features are part of Atlas Pro, an optional paid plan. One
-            Atlas Pro subscription covers both Guitar Atlas and Pedal Steel
-            Atlas under the same account. New accounts receive a 14-day free
-            trial — no payment method required, and nothing is charged when it
-            ends.
+            Every feature of Guitar Atlas is free. There is no subscription, no
+            trial, and no price, and we don&apos;t ask for any payment details.
+            The same account works in Pedal Steel Atlas, which is free too.
           </p>
-          <p>
-            Atlas Pro is available as an auto-renewing monthly or annual
-            subscription, or as a one-time lifetime purchase; current prices
-            are always shown before you buy. Subscriptions renew automatically
-            until canceled. You can cancel anytime — in your App Store
-            subscription settings for purchases made in the apps, or via the
-            billing portal linked in your receipt for purchases made on the
-            web — and you keep access through the end of the period you have
-            paid for.
-          </p>
-          <p>
-            In-app purchases are billed by Apple through the App Store and
-            follow Apple&apos;s refund policy. Web purchases are processed by
-            Stripe with subscriptions managed by RevenueCat; for refunds on web
-            purchases, contact us. If prices change, existing subscribers are
-            notified in advance and changes apply from a future renewal, never
-            retroactively. Students on an active teacher&apos;s studio roster
-            may receive Atlas Pro access through their teacher&apos;s
-            subscription; that access ends (after a short grace period) if
-            they leave the roster or the teacher&apos;s subscription lapses.
-          </p>
+          {/* PRICING-CLAUSE: pending owner wording */}
         </Section>
 
         <Section title="Termination">
