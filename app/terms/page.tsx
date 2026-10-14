@@ -67,11 +67,20 @@ export default function Terms() {
 
         <Section title="Free to Use">
           <p>
-            Every feature of Guitar Atlas is free. There is no subscription, no
-            trial, and no price, and we don&apos;t ask for any payment details.
-            The same account works in Pedal Steel Atlas, which is free too.
+            Every feature of Guitar Atlas is free. There is no subscription and
+            no price, and we don&apos;t ask for any payment details. The same
+            account works in Pedal Steel Atlas, which is free too.
           </p>
-          {/* PRICING-CLAUSE: pending owner wording */}
+          <p>
+            Guitar Atlas is free during our launch. We plan to add paid
+            features later, which could include some features that are free
+            today. Before that happens, we&apos;ll update these terms and tell
+            you in advance, and every existing account will get a free trial of
+            the paid features when they start. Your work always stays yours —
+            you&apos;ll always be able to open and play your own pieces and
+            tabs — and nothing is ever charged without an explicit purchase by
+            you.
+          </p>
         </Section>
 
         <Section title="Termination">

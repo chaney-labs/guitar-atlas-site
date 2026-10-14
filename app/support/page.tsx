@@ -56,9 +56,10 @@ export default function Support() {
           </FAQ>
 
           <FAQ q="Is Guitar Atlas free?">
-            Yes. Everything in Guitar Atlas is free right now — there&rsquo;s no
-            subscription, no trial, and nothing to cancel.
-            {/* PRICING-CLAUSE: pending owner wording */}
+            Yes — everything is free during our launch. If we add paid features
+            later, we&rsquo;ll tell you in advance, every existing account will
+            get a free trial of them when they start, and your own work always
+            stays yours to open and play.
           </FAQ>
 
           <FAQ q="I’m a student — do I have to pay?">

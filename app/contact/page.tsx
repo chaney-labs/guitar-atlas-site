@@ -52,8 +52,8 @@ export default function Contact() {
             with an App Store release coming soon.
           </FAQ>
           <FAQ q="Is Guitar Atlas free?">
-            Yes. Everything in Guitar Atlas is free right now — no
-            subscription, no trial. The same account works in Pedal Steel
+            Yes. Everything in Guitar Atlas is free during our launch — no
+            subscription, nothing to pay. The same account works in Pedal Steel
             Atlas, which is free too.
           </FAQ>
           <FAQ q="Can I import my existing songs / chord charts?">
