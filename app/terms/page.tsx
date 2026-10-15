@@ -43,6 +43,20 @@ export default function Terms() {
           </ul>
         </Section>
 
+        <Section title="Objectionable Content and Abusive Users">
+          <p>
+            We have zero tolerance for objectionable content and abusive
+            users. Don&apos;t post anything offensive, hateful, sexually
+            explicit, threatening, or harassing, including in studio names,
+            notes, assignments, and profile names.
+          </p>
+          <p>
+            In the app you can report content and block users. We review every
+            report within 24 hours. We remove content that breaks these terms,
+            and users who post it or abuse others may be banned.
+          </p>
+        </Section>
+
         <Section title="Your Content">
           <p>
             You retain ownership of the pieces, notes, and other content you
